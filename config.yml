@@ -81,12 +81,11 @@ google_analytics_id:
 # -----------------------------------------------------------------------------
 # Profile header
 # -----------------------------------------------------------------------------
-title: "ZhgChgLi's Links"
+title: "Enlaces de Nico"
 avatar: "./images/profile.jpeg"
-name: "@zhgchgli"
+name: "@nicomora_oficial"
 tagline: >-
-    An iOS, web, and automation developer from Taiwan 🇹🇼 who also loves sharing, traveling, and writing.
-    Followed by {{ vars.GithubProfilePlugin['ZhgChgLi'].followers }} on GitHub across {{ vars.GithubProfilePlugin['ZhgChgLi'].repos }} public repos.
+    Bienveni@ a mi página de links, aquí encontrarás wishlists, proyectos y otras redes sociales.
 
 # -----------------------------------------------------------------------------
 # Links
