@@ -100,7 +100,7 @@ links:
   - link:
       icon: "fa-solid fa-book"
       text: "Wishlist de Buscalibre"
-      url: "www.buscalibre.cl/v2/wishlist_2170172_l.html"
+      url: "https://www.buscalibre.cl/v2/wishlist_2170172_l.html"
       alt: "Aquí está los libros que he estado ojeando"
       title: "Aquí está los libros que he estado ojeando"
       target: "_blank"
