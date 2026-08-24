@@ -105,6 +105,14 @@ links:
       title: "Aquí está los libros que he estado ojeando"
       target: "_blank"
 
+  - link:
+      icon: "fa-brands fa-square-steam"
+      text: "Wishlist de Steam"
+      url: "https://store.steampowered.com/wishlist/id/ncklauss/"
+      alt: "Estos juegos me han llamado la atención últimamente"
+      title: "Estos juegos me han llamado la atención últimamente"
+      target: "_blank"
+
   # → uses GithubRepoStarsCountPlugin
   - link:
       icon: "fa-brands fa-swift"
