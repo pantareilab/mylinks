@@ -112,7 +112,15 @@ links:
       alt: "Estos juegos me han llamado la atención últimamente"
       title: "Estos juegos me han llamado la atención últimamente"
       target: "_blank"
-
+      
+  - link:
+      icon: "fa-solid fa-dumbbell"
+      text: "Hevy"
+      url: "https://hevy.com/user/nicomorap"
+      alt: "Mis entrenamientos"
+      title: "Mis entrenamientos"
+      target: "_blank"
+      
   - link:
       icon: "fa-brands fa-square-instagram"
       text: "Panta Rei"
