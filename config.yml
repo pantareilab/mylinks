@@ -12,7 +12,7 @@
 theme: glassmorphism
 
 # HTML <html lang> attribute
-lang: "en"
+lang: "es"
 
 # Force a color scheme regardless of the visitor's system appearance:
 #   auto  — follow OS (default; the page auto-switches between light/dark)
@@ -113,6 +113,14 @@ links:
       title: "Estos juegos me han llamado la atención últimamente"
       target: "_blank"
 
+  - link:
+      icon: "fa-brands fa-square-instagram"
+      text: "Panta Rei"
+      url: "https://www.instagram.com/pantarei.lab/"
+      alt: "Mis inventos y creaciones"
+      title: "Mis inventos y creaciones"
+      target: "_blank"
+
   # → uses GithubRepoStarsCountPlugin
   - link:
       icon: "fa-solid fa-robot"
@@ -122,35 +130,7 @@ links:
       title: "Cliqui es un robot educativo, modular e imprimible en 3D"
       target: "_blank"
 
-  # → uses GithubRepoStarsCountPlugin + GithubLastCommitPlugin
-  - link:
-      icon: "fa-brands fa-github"
-      text: "linkyee <span class='link-button-text'>({{vars.GithubRepoStarsCountPlugin['ZhgChgLi/linkyee']}} ⭐ · last update {{ vars.GithubLastCommitPlugin['ZhgChgLi/linkyee'].date }})</span>"
-      url: "https://github.com/ZhgChgLi/linkyee"
-      alt: "linkyee is a fully customized, open-source LinkTree alternative deployed directly on GitHub Pages."
-      title: "linkyee is a fully customized, open-source LinkTree alternative deployed directly on GitHub Pages."
-      target: "_blank"
 
-  # → uses RSSFeedPlugin (latest blog post). `latest: true` opts into the
-  #   theme's "LATEST" badge styling.
-  - link:
-      icon: "fa-solid fa-newspaper"
-      text: "{{ vars.RSSFeedPlugin['https://en.zhgchg.li/feed.xml'][0].title }}"
-      url: "{{ vars.RSSFeedPlugin['https://en.zhgchg.li/feed.xml'][0].url }}"
-      alt: "Latest blog post by ZhgChgLi"
-      title: "Latest blog post"
-      target: "_blank"
-      latest: true
-
-  # → uses YouTubeChannelLatestVideoPlugin
-  - link:
-      icon: "fa-brands fa-youtube"
-      text: "{{ vars.YouTubeChannelLatestVideoPlugin['@zhgchgli'].title }}"
-      url: "{{ vars.YouTubeChannelLatestVideoPlugin['@zhgchgli'].url }}"
-      alt: "Latest YouTube video"
-      title: "Latest YouTube video"
-      target: "_blank"
-      latest: true
 
 # -----------------------------------------------------------------------------
 # Social media buttons
@@ -185,8 +165,7 @@ socials:
 # Footer (uses CountdownPlugin)
 # -----------------------------------------------------------------------------
 footer: >
-    Hi there! Follow me on Medium or GitHub, or stay connected on Instagram or LinkedIn.
-    <br>linkyee has been live for {{ vars.CountdownPlugin.linkyee_release.days }} days. 🎉
+    Gracias por pasar por aquí :)
 
 # Footer copyright message
 # Linkyee is a 100% free, open-source project—feel free to modify the copyright message as you like. :)
